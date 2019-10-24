@@ -21,6 +21,7 @@ class App < Sinatra::Base
         @hero_name << member[:name]
         @hero_power << member[:power]
         @hero_bio << member[:bio]
+      end 
       
       
       erb :team 
